@@ -26,8 +26,8 @@ body {
   color: #EBEFF2;
 }
 
-#fullpage {
-  height = 100vh;
+.fullpage {
+  height: 100vh;
 }
 
 h1 {
