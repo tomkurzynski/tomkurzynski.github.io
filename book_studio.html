@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Baloo|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="book_studio.css" />
+    <!-- <script src="book_studio.js"></script> -->
+    <title>Document</title>
+    <script>
+        var times, day, hour;
+            function activateRockets() {
+                times = document.querySelectorAll('div.flex');
+                for (var i = 0; i < times.length; i++) {
+                    day = times[i].dataset.day;
+                    hour = times[i].dataset.hour; 
+                }
+            }
+            window.addEventListener("load", activateRockets);
+    </script>
+</head>
+<body>
+    
+    
+    <div id="calender-wrapper">
+        <div id="calender-title" class="disable-select flex row center-v around">
+            <h4>Please select the day and time</h4>
+            </div>
+            <div id="days" class="flex row center-vh colorRed disable-select">
+                <p>MON</p>
+                <p>TUE</p>
+                <p>WEDS</p>
+                <p>THURS</p>
+                <p>FRI</p>
+                <p>SAT</p>
+                <p>SUN</p>
+            </div>
+            <div  class="flex row center-vh colorRed disable-select hours">
+                <p data-day="Monday" data-hour="8">8:00</p>
+                <p data-day="Tuesday" data-hour="8">8:00</p>
+                <p data-day="Wednesday" data-hour="8">8:00</p>
+                <p data-day="Thursday" data-hour="8">8:00</p>
+                <p data-day="Friday" data-hour="8">8:00</p>
+                <p data-day="Saturday" data-hour="8">8:00</p>
+                <p data-day="Sunday" data-hour="8">8:00</p>
+            </div>
+            <div class="flex row center-vh colorRed disable-select hours">
+                <p data-day="Monday" data-hour="10">10:00</p>
+                <p data-day="Tuesday" data-hour="10">10:00</p>
+                <p data-day="Wednesday" data-hour="10">10:00</p>
+                <p data-day="Thursday" data-hour="10">10:00</p>
+                <p data-day="Friday" data-hour="10">10:00</p>
+                <p data-day="Saturday" data-hour="10">10:00</p>
+                <p data-day="Sunday" data-hour="10">10:00</p>
+            </div>
+            <div class="flex row center-vh colorRed disable-select hours">
+                <p data-day="Monday" data-hour="12">12:00</p>
+                <p data-day="Tuesday" data-hour="12">12:00</p>
+                <p data-day="Wednesday" data-hour="12">12:00</p>
+                <p data-day="Thursday" data-hour="12">12:00</p>
+                <p data-day="Friday" data-hour="12">12:00</p>
+                <p data-day="Saturday" data-hour="12">12:00</p>
+                <p data-day="Sunday" data-hour="12">12:00</p>
+            </div>
+            <div class="flex row center-vh colorRed disable-select hours">
+                <p data-day="Monday" data-hour="14">14:00</p>
+                <p data-day="Tuesday" data-hour="14">14:00</p>
+                <p data-day="Wednesday" data-hour="14">14:00</p>
+                <p data-day="Thursday" data-hour="14">14:00</p>
+                <p data-day="Friday" data-hour="14">14:00</p>
+                <p data-day="Saturday" data-hour="14">14:00</p>
+                <p data-day="Sunday" data-hour="14">14:00</p>
+            </div>
+            <div class="flex row center-vh colorRed disable-select hours">
+                <p data-day="Monday" data-hour="16">16:00</p>
+                <p data-day="Tuesday" data-hour="16">16:00</p>
+                <p data-day="Wednesday" data-hour="16">16:00</p>
+                <p data-day="Thursday" data-hour="16">16:00</p>
+                <p data-day="Friday" data-hour="16">16:00</p>
+                <p data-day="Saturday" data-hour="16">16:00</p>
+                <p data-day="Sunday" data-hour="16">16:00</p>
+            </div>
+            <div class="flex row center-vh colorRed disable-select hours">
+                <p data-day="Monday" data-hour="18">18:00</p>
+                <p data-day="Tuesday" data-hour="18">18:00</p>
+                <p data-day="Wednesday" data-hour="18">18:00</p>
+                <p data-day="Thursday" data-hour="18">18:00</p>
+                <p data-day="Friday" data-hour="18">18:00</p>
+                <p data-day="Saturday" data-hour="18">18:00</p>
+                <p data-day="Sunday" data-hour="18">18:00</p>
+            </div>
+            <div class="flex row center-vh colorRed disable-select hours">
+                <p data-day="Monday" data-hour="20">20:00</p>
+                <p data-day="Tuesday" data-hour="20">20:00</p>
+                <p data-day="Wednesday" data-hour="20">20:00</p>
+                <p data-day="Thursday" data-hour="20">20:00</p>
+                <p data-day="Friday" data-hour="20">20:00</p>
+                <p data-day="Saturday" data-hour="20">20:00</p>
+                <p data-day="Sunday" data-hour="20">20:00</p>
+            </div>
+           
+            <div id="calender-panel" class="flex row center-v end">
+                <div id="clear" class="flex column center-vh bgColorDarkRed">
+                    <p>CLEAR SELECTION</p>
+                </div>
+            </div>
+        </div>
+    
+        <div id="calender-buttons" class="flex row center-vh wrap">
+            <div id="make-booking" class="flex column center-vh">
+                <p>MAKE A BOOKING</p>
+            </div>
+        </div>
+</body>
+<script>
+    
+    
+        for (var i = 0; i < times.length; i++) {
+            echo "times[i]";
+        
+        }
+    
+</script>
+
+</html>
